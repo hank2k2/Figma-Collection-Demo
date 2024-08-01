@@ -1,0 +1,217 @@
+/* Style for all */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Style header part */
+
+.header-top {
+    padding: 20px 0;
+    background-color: #212121;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+
+.header-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-main-menu {
+    display: flex;
+    gap: 50px;
+    margin-left: 30px;
+}
+
+.header-main-menu .item a {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.header-mini-logo {
+    display: flex;
+    gap: 40px;
+}
+
+
+/* Style Main Part */
+
+/* Swiper img */
+.swiper-banner {
+    position: relative;
+    height: 860px;
+    width: 100%;
+    background-image: url('../images/Mask group.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-content {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.swiper-content p {
+    font-family: Abril Fatface;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 129.5px;
+    text-align: left;
+    color: #ffffff;
+}  
+
+.swiper-content input.shop-now {
+    width: 160px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: #212121;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+/* Content-1 style */
+
+.content-1-word {
+    margin-top: 30px;
+}
+
+.content-1-word header {
+    font-family: Abril Fatface;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 56.66px;
+    text-align: center;
+}
+
+.content-1-word p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.content-1-img-block {
+    margin-top: 30px;
+}
+
+.content-1-img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+input.input-dress {
+    width: 80px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: #212121;
+    color: #ffffff;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.dress-1 {
+    background-image: url("../images/conten-1.1.jpg");
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 494px;
+    border-radius: 7px;
+}
+
+.dress-2 {
+    background-image: url("../images/content-1.2.jpg");
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 494px;
+    border-radius: 7px;
+}
+
+.dress-3 {
+    background-image: url("../images/content-1.3.jpg");
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 494px;
+    border-radius: 7px;
+}
+
+.dress-4 {
+    background-image: url("../images/content-1.4.jpg");
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 494px;
+    border-radius: 7px;
+}
+
+.dress-5 {
+    background-image: url("../images/content-1.5.jpg");
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 494px;
+    border-radius: 7px;
+}
+
+.dress-6 {
+    background-image: url("../images/content-1.6.jpg");
+    background-repeat: no-repeat;
+    height: 613px;
+    width: 494px;
+    border-radius: 7px;
+}
+
+.item-flex h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.item-flex h4 {
+    margin-bottom: 20px;
+}
+
+.dress-button {
+    text-align: center;
+}
+
+.dress-button input {
+    width: 160px;
+    height: 54px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
