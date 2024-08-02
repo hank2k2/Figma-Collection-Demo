@@ -215,3 +215,91 @@ input.input-dress {
     font-weight: 400;
     line-height: 20px;
 }
+
+/* Content-2 style */
+
+.content-2-img-block {
+    margin-top: 30px;
+}
+
+.content-2-accessory {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.content-accessory {
+    width: 70%;
+    height: 100%;
+}
+
+.accessory-1 {
+    width: 100%;
+}
+
+.accessory-1 img {
+    height: 50%;
+}
+
+.accessory-2 img{
+    width: 1018px;
+    height: 50%;
+}
+
+.accessory-3 {
+    width: 30%;
+}
+
+.accessory-3 img {
+    width: 100%;
+    height: 1021px;
+}
+
+.marquee {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    background-color: #212121;
+    padding: 34px 0;
+    margin-top: 50px;
+}
+
+.text {
+    font-family: Abril Fatface;
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 32px;
+    animation: marquee 10s linear infinite;
+    color: #ffffff;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Content-3 style */
+
+.content-3-menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content-3-menu .item a {
+    text-decoration: none;
+    font-family: Abril Fatface;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #979797;
+}

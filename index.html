@@ -115,7 +115,8 @@
             });
           </script>
         </div>
-    
+
+        <!-- Content 1 -->
         <div class="content-1">
                 <div class="content-1-word">
                     <header>NEW LOOK</header>
@@ -186,12 +187,69 @@
             </div>   
         </div>
 
+        <!-- Content 2 -->
         <div class="content-2">
+            
             <div class="content-1-word">
                 <header>NEW ARRIVALS</header>
                 <p>Find your favorite thing in here</p>
             </div>
-        </div>
+
+                <div class="content-2-img-block">
+                    <div class="container">
+                    <div class="content-2-accessory">
+                        <div class="content-accessory">
+                        <div class="accessory-1">
+                            <img src="images/content-2.1.jpg" alt="small bag">
+                            <img src="images/content-2.2.jpg" alt="small necklace" class="small-necklace">
+                        </div>
+                        <div class="accessory-2">
+                            <img src="images/content-2.3.jpg" alt="">
+                        </div>
+                    </div>    
+                        <div class="accessory-3">
+                            <img src="images/content-2.4.jpg" alt="">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="marquee">
+                        <span class="text">10% DISCOUNT FOR NEW MEMBERS</span>
+                        <span class="text">10% DISCOUNT FOR NEW MEMBERS</span>
+                        <span class="text">10% DISCOUNT FOR NEW MEMBERS</span>
+                    </div>
+                    <script>
+                        document.addEventListener('DOMContentLoaded', () => {
+                            const marquee = document.querySelector('.marquee');
+                            const clone = marquee.innerHTML;
+                            marquee.innerHTML += clone;
+                        });
+                    </script>
+            </div>
+            </div>
+
+            <!-- Content 3 -->
+            <div class="content-3">
+                <div class="content-1-word">
+                    <header>COLLECTION</header>
+                </div>
+                <div class="content-3-menu">
+                    <div class="item">
+                        <a href="#">All</a>
+                    </div>
+                    <div class="item">
+                        <a href="#">Apparel</a>
+                    </div>
+                    <div class="item">
+                        <a href="#">Shoes</a>
+                    </div>
+                    <div class="item">
+                        <a href="#">Bags</a>
+                    </div>
+                    <div class="item">
+                        <a href="#">Accessory</a>
+                    </div>
+                </div>
+            </div>
 
     </div>
     </div>
