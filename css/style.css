@@ -368,25 +368,32 @@ input.input-dress {
 }
 
 .input-container input {
-    width: 540px; /* Điều chỉnh độ rộng theo ý muốn */
-    padding-right: 30px; /* Đảm bảo có không gian cho mũi tên */
+    width: 514px;
+    height: 60px;
+    padding-right: 30px;
+    box-sizing: border-box;
     padding: 10px 15px;
+    border: none;
     border-radius: 7px;
     font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    outline: none;
 }
 
-.input-container .arrow-icon {
+.input-container input::placeholder {
+    color: #979797;
+    letter-spacing: 1px;
+}
+
+.input-container::after {
+    content: '→';
     position: absolute;
-    right: 10px;
+    right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    pointer-events: none;
-}
-
-.input-container .arrow-icon::before {
-    content: '→';
     font-size: 18px;
     color: #212121;
+    pointer-events: none;
 }
 
 .content-6-banner-word-2 h4{
