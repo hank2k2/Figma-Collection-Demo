@@ -393,7 +393,6 @@ input.input-dress {
     transform: translateY(-50%);
     font-size: 18px;
     color: #212121;
-    pointer-events: none;
 }
 
 .content-6-banner-word-2 h4{
