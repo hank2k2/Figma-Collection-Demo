@@ -421,13 +421,12 @@ input.input-dress {
 }
 
 .left_footer {
-    /* display: block; */
     padding-top: 30px;
 }
 
 .menu_footer {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .box_footer {
