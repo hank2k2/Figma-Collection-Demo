@@ -306,6 +306,45 @@ input.input-dress {
 
 /* Content-4 style */
 
+.content-4-swiper {
+    position: relative;
+    height: 100%;
+    margin-top: 30px;
+}
+
+/* .content-4-swiper {
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+} */
+
+.content-4-swiper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.content-4-swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-4-swiper .swiper-slide .content-4-img img.content-4-img-1 {
+    display: block;
+    width: 70%;
+    object-fit: cover;
+}
+
+.content-4-img {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
 
 
 
