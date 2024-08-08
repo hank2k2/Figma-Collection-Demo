@@ -165,16 +165,19 @@ img {
     text-align: center;
 }
 
+.block {
+    width: 100%;
+}
+
 .content-1-img {
     margin-top: 30px;
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 15px;
 }
 
 .dress-1 {
     position: relative;
-    width: 100%;
+    width:33.33333333%
 }
 
 .dress-1 img {
@@ -194,7 +197,7 @@ img {
     padding: 13px 13px;
     font-size: 16px;
     font-weight: 400;
-    border-radius: 5px;
+    border-radius: 7px;
     text-decoration: none;
 }
 
