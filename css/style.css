@@ -323,6 +323,12 @@ img {
     font-weight: 400;
     line-height: 32px;
     color: #979797;
+    transition: color 0.3s;
+}
+
+.content-3-menu .item a:hover {
+    color: #000000;
+    font-size: 32px;
 }
 
 /* Content-4 style */
@@ -378,10 +384,12 @@ img {
     justify-content: space-around;
     width: 100%;
     margin-top: 30px;
+    gap: 10px;
 }
 
 .content-5-img .content-5-img-1 img {
     border-radius: 7px;
+    display: block;
 }
 
 
