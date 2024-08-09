@@ -280,12 +280,12 @@ img {
 .marquee {
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 150px;
     white-space: nowrap;
     overflow: hidden;
     position: relative;
     background-color: #212121;
-    padding: 34px 0;
+    padding: 54px 0;
     margin-top: 50px;
 }
 
@@ -329,6 +329,20 @@ img {
 .content-3-menu .item a:hover {
     color: #000000;
     font-size: 32px;
+}
+
+.label_3 {
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    top: 16px;
+    left: 16px;
+    text-align: center;
+    padding: 12px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 /* Content-4 style */
