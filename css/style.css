@@ -136,6 +136,15 @@ img {
     line-height: 50px;
 }
 
+/* Nút pagination cho slide đầu tiên */
+.swiper-pagination-bullet-active.bullet-0 {
+    background-color: #ffffff; /* Màu cam */
+  }
+  
+  /* Nút pagination cho slide thứ hai */
+  .swiper-pagination-bullet-active.bullet-1 {
+    background-color: #ffffff; /* Màu xanh lá */
+  } 
 
 
 
