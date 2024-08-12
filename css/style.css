@@ -59,8 +59,6 @@ img {
     line-height: 20px;
     color: #212121;
     text-decoration: none;
-    transition: color 0.3s;
-    transition: text-decoration 0.3s;
 }
 
 .header-main-menu .item a.hover_item:hover {
