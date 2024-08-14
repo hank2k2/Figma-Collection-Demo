@@ -105,18 +105,13 @@
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
+            
             <script>
                 var swiper = new Swiper(".mySwiper", {
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,    
-                        renderBullet: function (index, className) {
-                            // Add color for bullet
-                            return '<span class="' + className + ' bullet-' + index + '"></span>';
-                        },
-                    },
+                  pagination: {
+                    el: ".swiper-pagination",
+                  },
                 });
-
             </script>
         </div>
 
@@ -309,49 +304,48 @@
                 </div>
 
                 <div class="container">
-                    <div class="content-4-swiper">
-
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                <div class="content-4-img">
-                                    <img src="images/content-4.1.jpg" alt="" class="content-4-img-1">
-                                    <div class="content-4-img-2">
-                                        <img src="images/content-4.2.jpg" alt="">
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="content-4-img">
-                                    <img src="images/content-4.1.jpg" alt="" class="content-4-img-1">
-                                    <div class="content-4-img-2">
-                                        <img src="images/content-4.3.jpg" alt="">
-                                    </div>
-                                </div>
-                              </div>
-                              <div class="swiper-slide">
-                                <div class="content-4-img">
-                                    <img src="images/content-4.1.jpg" alt="" class="content-4-img-1">
-                                    <div class="content-4-img-2">
-                                        <img src="images/content-4.4.jpg" alt="">
-                                    </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
+                    <div class="conten-4-img">
+                        <div class="conten-4-button">
+                            <img src="images/content-4.1.jpg" alt="">
+                            <!-- <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a> -->
                         </div>
-    
-                        <script>
-                            var swiper = new Swiper(".mySwiper", {
-                              navigation: {
-                                nextEl: ".swiper-button-next",
-                                prevEl: ".swiper-button-prev",
-                              },
-                            });
-                        </script>
+                        <div class="content-4-swiper">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                    <img src="images/content-4.2.jpg" alt="">
+                                    <h5>Puff Sleeve Ruffle Trim Shirred Waist Layered Hem Dress</h5>
+                                    <p>$158</p>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="images/content-4.3.jpg" alt="">
+                                    <h5>Two way zip metallic quilted bag</h5>
+                                    <p>$90</p>
+                                  </div>
+                                  <div class="swiper-slide">
+                                    <img src="images/content-4.4.jpg" alt="">
+                                    <h5>Mixed Colors Platform Pu Leather Knee High Boots</h5>
+                                    <p>$124</p>
+                                  </div>
+                                </div>
+                                <br>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                    </div>
+
+                    <script>
+                        var swiper = new Swiper(".mySwiper", {
+                          pagination: {
+                            el: ".swiper-pagination",
+                          },
+                        });
+                    </script>
                     </div>
                 </div>
+
+                
 
                 <div class="marquee">
                     <span class="text">NEW LOOKBOOK</span>
