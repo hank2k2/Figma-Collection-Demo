@@ -339,10 +339,60 @@ img {
     margin-top: 30px;
 }
 
+.conten-4-button {
+    position: relative;
+}
+
 .conten-4-button img {
     border-radius: 8px;
 }
 
+.conten-4-button a.d1 {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    top: 43%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.conten-4-button a.b1 {
+    display: inline-block;
+    position: absolute;
+    top: 77%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    line-height: 0;
+    border: 2px solid black;
+}
+
+.conten-4-button a.z1 {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    background-color: #ffffff;
+    top: 74%;
+    right: 13%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    line-height: 0;
+    border: 2px solid black;
+}
 .content-4-swiper {
     position: relative;
     width: 30%;
