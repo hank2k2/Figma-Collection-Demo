@@ -107,7 +107,6 @@ img {
 .swiper-content {
     position: absolute;
     top: 50%;
-    margin-left: 30px;
     margin-top: -120px;
 }
 
