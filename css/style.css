@@ -257,7 +257,7 @@ img {
 
 .img-2-3 {
     grid-column: 3; 
-    grid-row: 1 / span 2; /* Cột 3 sẽ kéo dài qua 2 hàng */ 
+    grid-row: 1 / span 2;
 }
 
 .img-2-3 img {
