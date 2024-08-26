@@ -24,6 +24,28 @@ img {
     height: auto;
 }
 
+/* Style test */
+
+.tab-items {
+    display: flex;
+    gap: 10px;
+}
+
+.tab-items-data {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tab-data {
+    display: none;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.tab-data.active {
+    display: block;
+}
+
 /* Style header part */
 
 .header-top {
