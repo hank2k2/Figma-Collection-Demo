@@ -26,12 +26,12 @@ img {
 
 /* Style test */
 
-.tab-items {
+.tab-item {
     display: flex;
     gap: 10px;
 }
 
-.tab-items-data {
+.tab-item-data {
     padding: 10px 20px;
     cursor: pointer;
 }
