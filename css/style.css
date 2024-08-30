@@ -26,14 +26,17 @@ img {
 
 /* Style test */
 
-.tab-item {
+/* .tab-item {
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .tab-item-data {
     padding: 10px 20px;
     cursor: pointer;
+    color: #000000;
 }
 
 .tab-data {
@@ -44,7 +47,7 @@ img {
 
 .tab-data.active {
     display: block;
-}
+} */
 
 /* Style header part */
 
@@ -331,7 +334,7 @@ img {
 
 /* Content-3 style */
 
-.content-3-menu {
+/* .content-3-menu {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -365,6 +368,48 @@ img {
     text-decoration: none;
     background-color: #000000;
     color: #ffffff;
+} */
+
+.tab-item {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.tab-item-data {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #979797;
+    font-family: Abril Fatface;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+}
+
+.tab-item-data.active {
+    font-family: Abril Fatface;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #000000;
+}
+
+.tab-data {
+    display: none;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.tab-data.active {
+    display: block;
+}
+
+.content-3 .label {
+    width: 150px;
+    height: 44px;
 }
 
 /* Content-4 style */

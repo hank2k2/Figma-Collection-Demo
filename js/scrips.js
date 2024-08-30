@@ -34,7 +34,7 @@ if (!customElements.get('tab-component')) {
 
             showTab(event) {
                 // Loại bỏ class 'active' khỏi tất cả các tab
-                this.querySelectorAll('tab-items').forEach(item => item.classList.remove('active'));
+                this.querySelectorAll('tab-item').forEach(item => item.classList.remove('active'));
 
                 // Loại bỏ class 'active' khỏi tất cả nội dung tab
                 this.querySelectorAll('.tab-data').forEach(content => content.classList.remove('active'));
@@ -43,9 +43,9 @@ if (!customElements.get('tab-component')) {
                 event.currentTarget.classList.add('active');
 
                 // Tìm nội dung tương ứng và hiển thị
-                const tabContainerName = event.currentTarget.getAttribute('data-container');
-                const activeContent = this.querySelector(`.tab-data[data-container-name="${tabContainerName}"]`);
-                activeContent.classList.add('active');
+                const tabContainerName = event.currentTarget.getAttribute('data-container'); // Lấy giá trị của thuộc tính data-container từ tab được nhấp. Đây là giá trị để xác định nội dung tương ứng cần hiển thị.
+                const activeContent = this.querySelector(`.tab-data[data-container-name="${tabContainerName}"]`); //Tìm nội dung có thuộc tính data-container-name khớp với giá trị data-container của tab được nhấp.
+                activeContent.classList.add('active'); //Thêm lớp active vào nội dung tương ứng, làm cho nó hiển thị.
             }
         }
     );
